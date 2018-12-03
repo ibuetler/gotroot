@@ -1,0 +1,15 @@
+#!/usr/bin/with-contenv bash
+
+adduser -D -u 2000 shellinabox
+echo 'shellinabox:V15yel4wzKSqVIu3OStZ' | chpasswd
+echo 'root:58a56c452c' | chpasswd
+
+
+echo "
+-------------------------------------
+GID/UID
+-------------------------------------
+User uid:    $(id -u shellinabox)
+User gid:    $(id -g shellinabox)
+-------------------------------------
+"
