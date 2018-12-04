@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 adduser -D -u 2000 shellinabox
-echo 'shellinabox:V15yel4wzKSqVIu3OStZ' | chpasswd
+echo 'shellinabox:<removed>' | chpasswd
 echo 'root:<removed>' | chpasswd
 
 
